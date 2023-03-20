@@ -1,13 +1,14 @@
 import React, { Component } from "react";
 import "./App.css";
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
-import img1 from './prueba1.jpg'
+//import img1 from './prueba1.jpg'
 
 // COMPONENTS
 import Header from "./components/Header/Header";
 import NavBar from "./components/NavBar/NavBar";
 import CardUser from "./components/CardUser/CardUser";
 import Button from "./components/Button/Button";
+import img1 from './components/Images/bozal-okk.jpg'
 
 class App extends Component {
     render() {
@@ -16,41 +17,45 @@ class App extends Component {
             <
             NavBar / >
             <
-            Header title = "Soy el titulo a partir de una prop"
-            subTitle = "Soy un subtitulo a partir de una prop" /
+            Header title = "Bienvenidos a M&S Talabarteria, la fabrica con la mayor experiencia y calidad en el mercado de Horse Racing" /
             >
             <
             div className = "UserSection" >
             <
-            CardUser name = "Daniel Di Salvo"
+            h1 className = "ProductsTitle" > Nuestros productos destacados < /h1> <
+            CardUser name = "Bozal"
             date = "Paga en hasta 3 cuotas sin Interes"
             description = "Precio: $ 10.000"
             img = { img1 }
-            backgroundColor = "yellow" /
+            backgroundColor = "rgb(201, 198, 198)" /
             >
             <
-            CardUser name = "Daniel Di Salvo"
+            CardUser name = "Bozal"
             date = "Paga en hasta 3 cuotas sin Interes"
             description = "Precio: $ 10.000"
             img = { img1 }
-            backgroundColor = "yellow" /
+            backgroundColor = "rgb(201, 198, 198)" /
             >
             <
-            CardUser name = "Daniel Di Salvo"
+            CardUser name = "Bozal"
             date = "Paga en hasta 3 cuotas sin Interes"
             description = "Precio: $ 10.000"
             img = { img1 }
-            backgroundColor = "yellow" /
+            backgroundColor = "rgb(201, 198, 198)" /
             >
             <
-            CardUser img = "https://react.semantic-ui.com/images/avatar/large/daniel.jpg" >
+            CardUser name = "Bozal"
+            date = "Paga en hasta 3 cuotas sin Interes"
+            description = "Precio: $ 10.000"
+            img = { img1 }
+            backgroundColor = "rgb(201, 198, 198)" /
+            >
+
             <
-            AccountCircleIcon / >
-            <
-            /CardUser> < /
+            /
             div > <
-            Button > Press Me! < /Button> <
-            Button > Press Me! < /Button> < /
+            Button > Ir al carrito < /Button> <
+            Button > Crear cuenta < /Button> < /
             div >
         );
     }
