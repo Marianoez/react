@@ -12,4 +12,6 @@
 .ProductsTitle {
     display: flex;
     text-align: center;
+    align-items: center;
+    color: rgb(201, 198, 198);
 }

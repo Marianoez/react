@@ -13,7 +13,7 @@ const Shop = () => {
         /> <
         span style = {
             { color: "white" }
-        } > Carrito < /span> < /
+        } >  Carrito < /span> < /
         div >
     );
 };
