@@ -4,17 +4,14 @@ import AddShoppingCartIcon from "@mui/icons-material/AddShoppingCart";
 const Shop = () => {
     return ( <
         div style = {
-            { display: "flex" }
-        } >
+            { display: "flex" } } >
         <
         AddShoppingCartIcon sx = {
-            { color: "white" }
-        }
-        /> <
+            { color: "white" } }
+        />{" "} <
         span style = {
-            { color: "white" }
-        } >  Carrito < /span> < /
-        div >
+            { color: "white" } } > Carrito < /span>{" "} <
+        /div>
     );
 };
 
