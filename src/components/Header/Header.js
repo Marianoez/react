@@ -8,12 +8,11 @@ const Header = (props) => {
         div className = "Header" >
         <
         img src = { img }
-        img width = '15%'
-        alt = "logo" / >
-        <
-        h1 > { props.title } < /h1> <
-        h2 > { props.subTitle } < /h2> < /
-        div >
+        width = "15%"
+        alt = "logo" > < /img> <
+        h1 > { props.title } < /h1>  <
+        h2 > { props.subTitle } < /h2> <
+        /div>
     );
 };
 
