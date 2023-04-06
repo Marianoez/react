@@ -1,25 +1,27 @@
 import React from "react";
 import "./NavBar.css";
-import Shop from "../Shop/Shop";
+import AddShoppingCartIcon from "@mui/icons-material/AddShoppingCart";
+import { Link } from "react-router-dom";
 
 const NavBar = () => {
   return (
     <nav className="Navigation">
       <ul className="List-ul">
-        <li>
-          <a href="www.google.com"> Productos </a>
-        </li>
-        <li>
-          <a href="www.google.com"> Contacto </a>
-        </li>
-        <li>
-          <a href="https://www.google.com/maps/@-38.7904978,-62.4181737,15z?hl=es">
-            Ubicacion
-          </a>
-        </li>
-        <li>
-          <Shop />
-        </li>
+        <Link className="Link" to="/">
+          Home
+        </Link>
+        <Link className="Link" to="/product">
+          Productos
+        </Link>
+        <Link className="Link" to="/ubication">
+          Ubicacion
+        </Link>
+        <Link className="Link" to="/cart">
+          <div style={{ display: "flex" }}>
+            <AddShoppingCartIcon sx={{ color: "white" }} />{" "}
+            <span style={{ color: "white" }}> Carrito </span>{" "}
+          </div>
+        </Link>
       </ul>
     </nav>
   );

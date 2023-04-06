@@ -1,0 +1,17 @@
+.tittle {
+    color: rgb(201, 198, 198);
+}
+
+.product-main {
+    height: auto;
+    width: 100%;
+    margin-top: 0rem;
+    display: inline-flex;
+    background-color: #eeeeeef6
+}
+
+.product-single {
+    align-items: center;
+    align-content: center;
+    margin: 3rem 3rem 3rem 3rem;
+}
