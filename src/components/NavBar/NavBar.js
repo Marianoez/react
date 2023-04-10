@@ -2,13 +2,14 @@ import React from "react";
 import "./NavBar.css";
 import AddShoppingCartIcon from "@mui/icons-material/AddShoppingCart";
 import { Link } from "react-router-dom";
+//import Logo1 from "../Images/iconos/logomsp.png";
 
 const NavBar = () => {
   return (
     <nav className="Navigation">
       <ul className="List-ul">
         <Link className="Link" to="/">
-          Home
+          MS
         </Link>
         <Link className="Link" to="/product">
           Productos

@@ -4,6 +4,7 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import { CardActionArea } from "@mui/material";
+import { Link } from "react-router-dom";
 
 const CardUser = ({
   img,
@@ -16,6 +17,9 @@ const CardUser = ({
   return (
     <Card sx={{ maxWidth: 345, background: backgroundColor }}>
       <CardActionArea>
+        <Link className="Link" to="/description">
+          Ir a descripcion del producto
+        </Link>
         <CardMedia component="img" image={img} alt="green iguana" />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">

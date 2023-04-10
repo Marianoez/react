@@ -9,7 +9,6 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 // COMPONENTS
 import Header from "./components/Header/Header";
 import NavBar from "./components/NavBar/NavBar";
-//import Button from "./components/Button/Button";
 
 //VIEWS
 import Product from "./pages/product/product";
@@ -45,3 +44,4 @@ export default App;
 /* 
 <Button> Ir al carrito </Button> 
 <Button> Crear cuenta </Button> */
+//import Button from "./components/Button/Button";
