@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
 //import AccountCircleIcon from "@mui/icons-material/AccountCircle";
-import imgportada from "./components/Images/caballo-170562.jpg";
 
 //REACT ROUTER DOM
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
@@ -15,6 +14,7 @@ import Product from "./pages/product/product";
 import Ubication from "./pages/ubication/ubication";
 import Cart from "./pages/cart/cart";
 import Home from "./pages/home/home";
+import Description from "./components/Description/Description";
 
 class App extends Component {
   render() {
@@ -26,6 +26,7 @@ class App extends Component {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/Product" element={<Product />} />
+            <Route path="/Product/Description" element={<Description />} />
             <Route path="/Cart" element={<Cart />} />
             <Route path="/Ubication" element={<Ubication />} />
           </Routes>
@@ -36,12 +37,3 @@ class App extends Component {
 }
 
 export default App;
-
-/* <Route path="/contact" element={<Contact />} />
-            <Route path="/product" element={<Product />} />
-            <Route path="/ubication" element={<Ubication />} />
-            <Route path="/cart" element={<Cart />} /> */
-/* 
-<Button> Ir al carrito </Button> 
-<Button> Crear cuenta </Button> */
-//import Button from "./components/Button/Button";
