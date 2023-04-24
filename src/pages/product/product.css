@@ -3,15 +3,16 @@
 }
 
 .product-main {
-    height: auto;
-    width: 100%;
     margin-top: 0rem;
     display: inline-flex;
-    background-color: #eeeeeef6
+    background-color: #eeeeeef6;
 }
 
 .product-single {
+    display: inline-flex;
     align-items: center;
     align-content: center;
     margin: 3rem 3rem 3rem 3rem;
+    max-width: 30%;
+    max-height: 30%;
 }

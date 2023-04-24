@@ -14,7 +14,7 @@ import Product from "./pages/product/product";
 import Ubication from "./pages/ubication/ubication";
 import Cart from "./pages/cart/cart";
 import Home from "./pages/home/home";
-import Description from "./components/Description/Description";
+import ProductDetail from "./pages/productdetail/productDetail";
 
 class App extends Component {
   render() {
@@ -26,9 +26,9 @@ class App extends Component {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/Product" element={<Product />} />
-            <Route path="/Product/Description" element={<Description />} />
             <Route path="/Cart" element={<Cart />} />
             <Route path="/Ubication" element={<Ubication />} />
+            <Route path="/detail" element={<ProductDetail />} />
           </Routes>
         </div>
       </Router>
@@ -37,3 +37,5 @@ class App extends Component {
 }
 
 export default App;
+
+//<Route path="/Product/Description" element={<Description />} />
